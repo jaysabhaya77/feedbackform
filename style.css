@@ -1,0 +1,147 @@
+
+.text-center{
+    margin: auto;
+    padding-top: 15px;
+}
+#CNAForm .container{
+
+    /* height: 600px; */
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+form{
+
+border-radius: 2%;
+border: #010100 2px;
+
+
+background-color: rgb(241, 237, 237); 
+padding: 10px;
+
+
+}
+
+.heading{
+text-align: center;
+font-size: 30px;
+}
+.check{
+margin-top: 3px;
+margin-bottom: 5px;
+margin-left: 20px;
+}
+.form-check-in{
+margin-left: -5px;
+}
+.card {
+background: linear-gradient(135deg, #d2d2d3,);
+border-radius: 12px;
+box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.4);
+overflow: hidden;
+}
+
+.card-header{
+/* background: linear-gradient(135deg, #3c4256, #313747); */
+text-align: center;
+/* padding: 14px 12px;*/
+
+}
+.title{
+font-size: 23px;
+}
+
+.card-header {
+font-size: 1.8em;
+font-weight: bold;
+}
+
+.card-footer a {
+text-decoration: none;
+color: #d1d1d1;
+}
+
+.card-body {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px 20px;
+}
+
+.stars {
+margin-bottom: 17px;
+font-size: 0.7em;
+}
+
+.stars i {
+font-size: 2.6em;
+
+cursor: pointer;
+color: #010100;
+transition: color 0.5s;
+}
+
+.card.one .stars i:nth-child(-n+1) {
+color: #ffcf87;
+}
+
+.card.two .stars i:nth-child(-n+2) {
+color: #ffcf87;
+}
+
+.card.three .stars i:nth-child(-n+3) {
+color: #ffcf87;
+}
+
+.card.four .stars i:nth-child(-n+4) {
+color: #ffcf87;
+}
+
+.card.five .stars i:nth-child(-n+5) {
+color: #ffcf87;
+}
+
+textarea {
+width: 100%;
+background-color: #f2f2f2;
+border: none;
+border-radius: 8px;
+
+
+font-size: 1.4em;
+outline: none;
+}
+
+button.cta {
+width: 100%;
+cursor: pointer;
+outline: none;
+border: none;
+border-radius: 6px;
+padding: 16px;
+margin-top: 32px;
+background: #21d4fd;
+background-size: 300% 100%;
+font-size: 1.4em;
+transition: background-position 0.7s;
+}
+
+button.cta:hover {
+background-position: 100% 0;
+}
+
+.credit a{
+text-decoration: none;
+color: #21D4FD;
+}
+
+.btn btn-primary{
+
+margin-left: 126px;
+width: 100px;
+border-radius: 40px;
+margin-bottom: 5px;
+cursor:pointer;
+}
+
